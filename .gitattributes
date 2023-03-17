@@ -1,0 +1,2 @@
+*.hipbin filter=lfs diff=lfs merge=lfs -text
+*.cudabin filter=lfs diff=lfs merge=lfs -text
