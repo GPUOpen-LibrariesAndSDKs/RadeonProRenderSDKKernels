@@ -9,6 +9,11 @@
         "NotAlways" : [],
         "Ignores" : ["ENABLE_MATX=1"]
     },
+    "../TahoeNext/Core/CuKernels/IntegratorGpuContourShaderKernel" : {
+        "Always" : ["ENABLE_MOTION_BLUR=1","FEATURE_AMD_MEDIA_OPS2=1","MAX_CLOSURES=6","MAX_MAT_BIN_COUNT=64","TH_CMJ=1","TH_ENABLE_HIP=1","TH_USE_R_2=1"],
+        "NotAlways" : [],
+        "Ignores" : ["ENABLE_MATX=1"]
+    },
     "../TahoeNext/Core/CuKernels/IntegratorGpuSimpleAovKernel" : {
         "Always" : ["ENABLE_MOTION_BLUR=1","FEATURE_AMD_MEDIA_OPS2=1","MAX_CLOSURES=6","MAX_MAT_BIN_COUNT=64","TH_CMJ=1","TH_ENABLE_HIP=1","TH_USE_R_2=1"],
         "NotAlways" : ["THN_ENABLE_VOLUME"],
