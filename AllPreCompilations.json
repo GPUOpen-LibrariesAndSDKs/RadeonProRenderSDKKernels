@@ -48,7 +48,8 @@
         "Always" : ["HIP_INCLUDE_HIP_AMD_DETAIL_HIP_COMPLEX_H=1","BVH_GLOBAL_STACK_SIZE=64","BVH_MAX_WORK_GROUP=5120","ENABLE_CURVE_HWI","S_CURVE_HWI_IMPLEMENTATION","TH_ENABLE_HIP=1"],
         "NotAlways" : ["ENABLE_MOTION_BLUR=1"],
         "Ignores" : ["ENABLE_MATX=1","THN_ENABLE_VOLUME"],
-        "MinArch" : 1030
+        "MinArch" : 1030,
+        "NoCuda" : true
     },
     "../TahoeNext/Core/CuKernels/RayCastCurveKernel#2" : {
         "Always" : ["HIP_INCLUDE_HIP_AMD_DETAIL_HIP_COMPLEX_H=1","BVH_GLOBAL_STACK_SIZE=64","BVH_MAX_WORK_GROUP=5120","S_CURVE_IMPLEMENTATION","TH_ENABLE_HIP=1"],
@@ -59,7 +60,8 @@
         "Always" : ["HIP_INCLUDE_HIP_AMD_DETAIL_HIP_COMPLEX_H=1","BVH_GLOBAL_STACK_SIZE=64","BVH_MAX_WORK_GROUP=5120","TH_ENABLE_HIP=1","WG_SIZE=64"],
         "NotAlways" : ["ENABLE_MOTION_BLUR=1","THN_CUTTING_PLANES"],
         "Ignores" : ["ENABLE_MATX=1","THN_ENABLE_VOLUME"],
-        "MinArch" : 1030
+        "MinArch" : 1030,
+        "NoCuda" : true
     },
     "../TahoeNext/Core/CuKernels/RayCastOoc1Kernels" : {
         "Always" : ["HIP_INCLUDE_HIP_AMD_DETAIL_HIP_COMPLEX_H=1","BVH_GLOBAL_STACK_SIZE=64","BVH_MAX_WORK_GROUP=5120","TH_ENABLE_HIP=1","USE_BVH_COMPRESSION=1"],
